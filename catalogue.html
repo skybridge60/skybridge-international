@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalogue | SKYBRIDGE INTERNATIONAL</title>
+<style>
+:root{--navy:#071b36;--gold:#d6ad55;--ink:#172335;--muted:#64748b}*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.55}
+header{background:var(--navy);color:white;padding:22px 6%;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}header a{color:var(--gold);text-decoration:none}
+main{padding:48px 6%}h1,h2{color:var(--navy)}.intro{color:var(--muted);max-width:780px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}.filters button{border:1px solid #d7dee8;background:white;padding:9px 13px;border-radius:20px;cursor:pointer}.filters button.active{background:var(--navy);color:white}
+input{width:100%;max-width:460px;padding:12px;border:1px solid #cbd5e1;border-radius:7px;font-size:16px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}.item{border:1px solid #e1e7ef;border-radius:12px;padding:20px}.item h3{color:var(--navy);margin:7px 0}.emoji{font-size:28px}.item a{display:inline-block;margin-top:10px;color:#765719;font-weight:bold}.note{background:#f4f7fb;padding:18px;border-radius:9px;margin-top:28px;color:#526174}footer{background:#041226;color:#d4deea;padding:22px 6%;margin-top:40px}
+</style></head><body>
+<header><strong>SKYBRIDGE <span style="color:var(--gold)">INTERNATIONAL</span></strong><a href="index.html">← Retour à l'accueil</a></header>
+<main><h1>Catalogue de produits</h1><p class="intro">Découvrez nos principales catégories. Les produits peuvent être proposés selon disponibilité ou recherchés sur commande. Contactez-nous pour obtenir un devis.</p>
+<input id="search" type="search" placeholder="Rechercher une catégorie…">
+<div class="filters"><button class="active" data-filter="all">Tout</button><button data-filter="Voitures">Voitures</button><button data-filter="Motos">Motos</button><button data-filter="Électronique">Électronique</button></div>
+<div class="grid" id="grid">
+<div class="item" data-cat="Voitures"><div class="emoji">🚘</div><h3>Voitures d'occasion</h3><p>Recherche et approvisionnement selon vos critères.</p><a href="https://wa.me/237690960317?text=Bonjour%20SKYBRIDGE%2C%20je%20souhaite%20un%20devis%20pour%20une%20voiture%20d'occasion.">Demander un devis →</a></div>
+<div class="item" data-cat="Voitures"><div class="emoji">🚗</div><h3>Voitures neuves</h3><p>Recherche de modèles neufs sur demande.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20souhaite%20un%20devis%20pour%20une%20voiture%20neuve.">Demander un devis →</a></div>
+<div class="item" data-cat="Voitures"><div class="emoji">🚙</div><h3>4x4 et SUV</h3><p>Véhicules adaptés à différents usages.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20recherche%20un%204x4%20ou%20SUV.">Demander un devis →</a></div>
+<div class="item" data-cat="Voitures"><div class="emoji">🚐</div><h3>Véhicules utilitaires</h3><p>Solutions pour les besoins professionnels.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20recherche%20un%20véhicule%20utilitaire.">Demander un devis →</a></div>
+<div class="item" data-cat="Motos"><div class="emoji">🏍️</div><h3>Motos classiques</h3><p>Recherche de motos selon votre budget et vos préférences.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20recherche%20une%20moto%20classique.">Demander un devis →</a></div>
+<div class="item" data-cat="Motos"><div class="emoji">🏁</div><h3>Motos sportives</h3><p>Modèles sportifs sur demande.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20recherche%20une%20moto%20sportive.">Demander un devis →</a></div>
+<div class="item" data-cat="Motos"><div class="emoji">🛵</div><h3>Scooters</h3><p>Options de mobilité urbaine.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20recherche%20un%20scooter.">Demander un devis →</a></div>
+<div class="item" data-cat="Motos"><div class="emoji">⚡</div><h3>Motos électriques</h3><p>Recherche de solutions électriques selon disponibilité.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20recherche%20une%20moto%20électrique.">Demander un devis →</a></div>
+<div class="item" data-cat="Électronique"><div class="emoji">📱</div><h3>Téléphones</h3><p>Smartphones et téléphones sur demande.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20souhaite%20un%20devis%20pour%20un%20téléphone.">Demander un devis →</a></div>
+<div class="item" data-cat="Électronique"><div class="emoji">💻</div><h3>Ordinateurs</h3><p>Ordinateurs portables et équipements informatiques.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20souhaite%20un%20devis%20pour%20un%20ordinateur.">Demander un devis →</a></div>
+<div class="item" data-cat="Électronique"><div class="emoji">📺</div><h3>Télévisions</h3><p>Recherche de téléviseurs selon vos besoins.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20souhaite%20un%20devis%20pour%20une%20télévision.">Demander un devis →</a></div>
+<div class="item" data-cat="Électronique"><div class="emoji">🎧</div><h3>Accessoires électroniques</h3><p>Accessoires et périphériques divers.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20recherche%20des%20accessoires%20électroniques.">Demander un devis →</a></div>
+<div class="item" data-cat="Électronique"><div class="emoji">📲</div><h3>Tablettes</h3><p>Tablettes pour usage personnel ou professionnel.</p><a href="https://wa.me/237690960317?text=Bonjour%2C%20je%20souhaite%20un%20devis%20pour%20une%20tablette.">Demander un devis →</a></div>
+</div>
+<div class="note"><strong>À savoir :</strong> ce catalogue présente nos catégories de recherche et d'approvisionnement, pas un stock garanti. La disponibilité, l'état, les caractéristiques, le prix, les garanties et les délais doivent être confirmés avant toute commande.</div>
+</main><footer>© SKYBRIDGE INTERNATIONAL · Douala, Cameroun · <a style="color:var(--gold)" href="mailto:skybridgeinternational241@gmail.com">skybridgeinternational241@gmail.com</a></footer>
+<script>
+const buttons=[...document.querySelectorAll('[data-filter]')], items=[...document.querySelectorAll('.item')], search=document.getElementById('search');let active='all';
+function apply(){const q=search.value.toLowerCase();items.forEach(el=>{el.hidden=!( (active==='all'||el.dataset.cat===active) && el.innerText.toLowerCase().includes(q));});}
+buttons.forEach(b=>b.addEventListener('click',()=>{buttons.forEach(x=>x.classList.remove('active'));b.classList.add('active');active=b.dataset.filter;apply();}));search.addEventListener('input',apply);
+</script></body></html>
